@@ -135,7 +135,7 @@ for 1000 times:
 
 - results:
 
-![Cache benchmark results](/benchmarks/cache-results.png)
+![Cache benchmark results](/cache-results.png)
 
 - conclusion:
   - Cold is slower as compared to warm. Shows that in memory cache is working.
@@ -169,7 +169,7 @@ done
 
 ```
 
-![Cache benchmark results](/benchmarks/rate-limit-results.png)
+![Cache benchmark results](/rate-limit-results.png)
 
 ## Phase 4 — “Scale reasoning”
 
@@ -191,4 +191,4 @@ Stage 3:
 2. Read replicas. Main DB is still used for write, but Read replicas for cache misses
 3. Rate limiting: centralized rate limiting by Redis
 
-![Diagram of final design](/benchmarks/final-design.png)
+![Diagram of final design](/final-design.png)
